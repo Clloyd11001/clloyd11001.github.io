@@ -231,7 +231,7 @@ section {
   }
 
   .card-border {
-    @apply border border-black-50 bg-black-100;
+    @apply border border-black-50 bg-black-100 relative overflow-hidden;
   }
 
   .marquee-item {
